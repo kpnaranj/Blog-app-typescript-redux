@@ -6,6 +6,8 @@ import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import morgan from "morgan";
+// Database
+import "./config/database";
 // Global variables
 const PORT = process.env.PORT || 5000;
 // Middlewares
